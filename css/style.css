@@ -1,6 +1,39 @@
 input {
   border: solid 1px black;
 }
+.title {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper--product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.wrappper--product-name {
+  width: 200px;
+}
+.total-price {
+  text-align: center;
+  margin-top: 2rem;
+}
+.total-price-result {
+  text-align: center;
+}
+
+/*  ESTÁ SIN COLOCAR BIEN EL BOTON, LO HE PUESTO RAPIDO PARA VERLO A LA DERECHA  */
+
+.section--create input {
+  margin: 0 1rem;
+}
+.section--create button {
+  margin: 0 1rem;
+  float: right;
+}
 
 .btn {
   display: inline-block;
@@ -25,15 +58,15 @@ input {
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #cf000f;
+  border-color: #cf000f;
 }
 
 .quantity {
